@@ -23,6 +23,10 @@ Falha ao Logar Mensagem
 
 ![falahalogar](https://user-images.githubusercontent.com/98977689/217323332-e11da739-bec7-4d2a-a7da-41761a83cca0.PNG)
 
+Usuário Não Existe Mensagem
+
+![ususario Não](https://user-images.githubusercontent.com/98977689/217324854-cfb09670-3b50-44c1-9227-a8db69cffa8f.PNG)
+
 Login Sucesso Mensagem
 
 ![sucesso](https://user-images.githubusercontent.com/98977689/217323395-553ebeda-d0ce-4189-ad98-e439cba0a8b8.PNG)
