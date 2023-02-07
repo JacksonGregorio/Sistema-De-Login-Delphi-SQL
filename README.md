@@ -3,7 +3,7 @@
  
  Telas:
  
- Registro
+Registro
  
 ![Git-logar](https://user-images.githubusercontent.com/98977689/217322742-e3e2aeec-545b-4c23-8828-d8c1e021a702.PNG)
 
@@ -30,4 +30,11 @@ Usuário Não Existe Mensagem
 Login Sucesso Mensagem
 
 ![sucesso](https://user-images.githubusercontent.com/98977689/217323395-553ebeda-d0ce-4189-ad98-e439cba0a8b8.PNG)
+
+ SQL Table:
+ 
+ ![Sql Table](https://user-images.githubusercontent.com/98977689/217326614-bbd656ab-b56f-42a3-9dcb-5a1b59e29e40.PNG)
+
+
+
 
