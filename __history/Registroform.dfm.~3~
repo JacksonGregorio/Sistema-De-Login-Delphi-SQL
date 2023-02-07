@@ -1,0 +1,66 @@
+object Registro: TRegistro
+  Left = 0
+  Top = 0
+  Caption = 'Registro'
+  ClientHeight = 409
+  ClientWidth = 503
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 76
+    Top = 133
+    Width = 30
+    Height = 13
+    Caption = 'Senha'
+  end
+  object Label1: TLabel
+    Left = 72
+    Top = 61
+    Width = 36
+    Height = 13
+    Caption = 'Usu'#225'rio'
+  end
+  object Label3: TLabel
+    Left = 72
+    Top = 213
+    Width = 27
+    Height = 13
+    Caption = 'Nome'
+  end
+  object Edit2: TEdit
+    Left = 72
+    Top = 80
+    Width = 401
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 72
+    Top = 152
+    Width = 401
+    Height = 21
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 200
+    Top = 306
+    Width = 153
+    Height = 61
+    Caption = 'Cadastrar'
+    TabOrder = 2
+  end
+  object Edit3: TEdit
+    Left = 72
+    Top = 232
+    Width = 401
+    Height = 21
+    TabOrder = 3
+  end
+end

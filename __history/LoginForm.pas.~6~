@@ -1,0 +1,61 @@
+unit LoginForm;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Registroform, Conexão,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
+  FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  FireDAC.Stan.Async, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client;
+
+type
+  TLogin = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    FDQuery1: TFDQuery;
+    procedure Button2Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Login: TLogin;
+  Registro : TRegistro;
+  DM : TDataModule1;
+
+implementation
+
+{$R *.dfm}
+
+
+procedure TLogin.Button2Click(Sender: TObject);
+begin
+
+Registro := TRegistro.Create(self);
+Registro.ShowModal;
+Registro.Free;
+
+end;
+
+procedure TLogin.FormCreate(Sender: TObject);
+begin
+ DM := DataModule1.Create(self);
+
+end;
+
+procedure TLogin.FormDestroy(Sender: TObject);
+begin
+  DM.Free;
+end;
+
+end.

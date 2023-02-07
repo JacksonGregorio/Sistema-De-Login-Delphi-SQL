@@ -1,0 +1,75 @@
+unit Registroform;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
+  FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
+  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, conexão, Vcl.Mask,
+  Vcl.DBCtrls;
+
+type
+  TRegistro = class(TForm)
+    Button2: TButton;
+    QueryRe: TFDQuery;
+    QueryReID: TIntegerField;
+    QueryReNome: TStringField;
+    QueryReSenha: TStringField;
+    QueryReUsuario: TStringField;
+    Label4: TLabel;
+    DBnome: TDBEdit;
+    DataRegistro: TDataSource;
+    Label5: TLabel;
+    DBsenha: TDBEdit;
+    Label6: TLabel;
+    DBusuario: TDBEdit;
+    Label7: TLabel;
+    DBcodigo: TDBEdit;
+    procedure Button2Click(Sender: TObject);
+
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Registro: TRegistro;
+
+implementation
+
+{$R *.dfm}
+
+uses LoginForm;
+
+
+
+
+
+
+
+
+procedure TRegistro.Button2Click(Sender: TObject);
+begin
+    QueryRe.Append;
+
+    try
+      QueryRe.Post;
+    except
+
+    begin
+         ShowMessage('Falha ao Cliar O cliente');
+    end;
+
+    end;
+
+    ShowMessage('Cliente Novo Adicionado');
+
+end;
+
+
+
+end.
