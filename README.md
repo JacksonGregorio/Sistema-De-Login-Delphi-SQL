@@ -1,7 +1,7 @@
  
  # Sistema de Crud em Delphi com SQL
 
-Sistema de Crudo Completo Usando Delphi e MySQL
+Sistema de Crud Completo Usando Delphi e MySQL
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
