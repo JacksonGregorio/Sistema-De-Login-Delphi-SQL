@@ -1,5 +1,21 @@
-# Sistema-Login-Delphi
- Sistema de login em Delphi com SQL
+ 
+ # Sistema de Crud em Delphi com SQL
+
+Sistema de Crudo Completo Usando Delphi e MySQL
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Sistema de Crud em Delphi**
+| :label: Tecnologias | Delhphi e SQL(tecnologias utilizadas)
+| :rocket: URL         | https://github.com/JacksonGregorio/Sistema-De-Login-Delphi-SQL
+| :fire: Desafio     | 
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://user-images.githubusercontent.com/98977689/217323251-8a262417-7f5c-45d9-944d-11b756459514.PNG#vitrinedev)
+
+## Detalhes do projeto
+
+Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
  
  Telas:
  
@@ -17,7 +33,7 @@ Usário já Existe Mensagem
 
 Tela de Login
 
-![tela-login](https://user-images.githubusercontent.com/98977689/217323251-8a262417-7f5c-45d9-944d-11b756459514.PNG)#vitrinedev
+![tela-login](https://user-images.githubusercontent.com/98977689/217323251-8a262417-7f5c-45d9-944d-11b756459514.PNG)
 
 Falha ao Logar Mensagem
 
